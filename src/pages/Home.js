@@ -46,7 +46,7 @@ export default function Home() {
             });
           });
       });
-  }, []);
+  }, [controls, mainControl, textControl]);
   return (
     <section id="particles" className="h-screen relative bg-black">
       <div className="absolute space-y-6 top-0 bottom-0 left-0 flex flex-col justify-center items-center right-0">
